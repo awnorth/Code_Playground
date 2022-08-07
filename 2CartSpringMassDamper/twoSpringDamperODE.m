@@ -1,6 +1,6 @@
-function dXdt = twoSpringDamperODE(t,X,k)
+function dXdt = twoSpringDamperODE(t,X,k,c)
 %     k = 0.2;
-    c = 0.15; % damping and/or friction
+%     c = 0.1; % damping and/or friction
     m1 = 1; % kg
     m2 = 1; % kg
 
